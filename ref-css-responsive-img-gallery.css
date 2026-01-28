@@ -1,0 +1,7 @@
+/* Makes image gallery responsive without using a media query */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+  gap: 1rem;
+}
