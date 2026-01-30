@@ -11,3 +11,24 @@
   height: 300px;
   object-fit: cover;
 }
+
+.heading{
+  text-align: center;
+  background-color: lightgrey;
+}
+
+.image{
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+figcaption{
+  text-align: center;
+  margin: 5px 0 0 0;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #333;
+  background-color: lightgray;
+  border: 2px solid black;
+  padding: 0.25rem;
+}
